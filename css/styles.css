@@ -4,10 +4,75 @@
     padding: 0;
 }
 
-.red-box {
-    background-color: red;
-    padding: 100px;
-    border: 2px solid black;
-    height: 200px;
-    width: 200px;
+section {
+    margin: 30px;
 }
+
+h1 {
+    margin: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 47px;
+}
+
+.target {
+    background-color: red;
+    border: 4px dashed black;
+    width: 100px;
+    height: 100px;
+}
+
+td {
+    border: 3px solid black;
+}
+
+table {
+    width: 300px;
+    height: 150px;
+}
+
+.some-colors-in-the-table td:nth-child(odd) {
+    background-color:lightseagreen;
+}
+
+.purple-blocks-container {
+    width: 300px;
+    color: white;
+}
+
+.purple-blocks-container > div {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px 5px 0 5px;
+}
+
+.purple-blocks-container > div:nth-child(2) {
+    text-align: right;
+}
+
+.purple-blocks-container > div:nth-child(1) > div:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.small-purple-block {
+    width: 25%;
+    background-color: purple;
+    padding: 5px;
+}
+
+.large-purple-block {
+    width: 75%;
+    background-color: purple;
+    padding: 5px;
+}
+
+.right-purple-block-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
